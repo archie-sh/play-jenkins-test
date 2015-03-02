@@ -6,7 +6,8 @@ import org.junit.Test;
 public class Test1 extends BaseTest {
 
     @Test
-    public void test(){
+    public void test() throws InterruptedException {
+        Thread.sleep(4000L);
         System.out.println("Test1");
     }
 }
